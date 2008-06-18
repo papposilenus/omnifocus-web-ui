@@ -4,18 +4,19 @@
   </li>
   
 <% @contexts.each {|c| %>
+	<% if c.task_count > 0 %>
 	<li>
 		<a href="/context/view/<%= c.ctx_id %>">
 			<% if c.is_subcontext %>
-				<span class="subcontext"><%= c.name %></span>
+			<span class="subcontext"><%= c.name %></span>
 			<% else %>
-				<%= c.name %>
+			<%= c.name %>
 			<% end %>
-			
 			<% if c.task_count > 0 %>
-				<span class="count"><%= c.task_count %></span>
+			<span class="count"><%= c.task_count %></span>
 			<% end %>
 		</a>
 	</li>
+	<% end %>
 <% } %>
 </ul>

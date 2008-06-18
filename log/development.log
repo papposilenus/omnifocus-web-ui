@@ -454,3 +454,106 @@ Rendering  within layouts/default
 Rendering main/index
 Response body was encoded with gzip
 Completed in 0.11155 (8 reqs/sec) | Rendering: 0.00136 (1%) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:07:54) [GET]
+  Session ID: f1bd2abfdd2305d87e71e2e082ff7b13
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x01896d94@./script/../config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00067 (1496 reqs/sec) | Rendering: 0.00004 (6%) | 401 Unauthorized [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:07:54) [GET]
+  Session ID: ebae5f1a90cc5a67f26bf85eb7efe0b4
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x01896d94@./script/../config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00060 (1653 reqs/sec) | Rendering: 0.00004 (6%) | 401 Unauthorized [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:08:51) [GET]
+  Session ID: df1c94187b0dc670f522b44ebfe12409
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x01896da8@./script/../config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00116 (863 reqs/sec) | Rendering: 0.00007 (5%) | 401 Unauthorized [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:08:52) [GET]
+  Session ID: 3f985ee67435929b52ea0e69d9c8b5da
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.12126 (8 reqs/sec) | Rendering: 0.02111 (17%) | 200 OK [http://localhost/]
+
+
+Processing InboxController#index (for 127.0.0.1 at 2008-06-18 00:08:56) [GET]
+  Session ID: 3f985ee67435929b52ea0e69d9c8b5da
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00223)
+Rendered inbox/_inbox (0.00309)
+Response body was encoded with gzip
+Completed in 0.02088 (47 reqs/sec) | Rendering: 0.00342 (16%) | 200 OK [http://localhost/inbox]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 00:12:38) [GET]
+  Session ID: 2a7dbfeadeb5bf66fec0fae94091ae43
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x01896da8@./script/../config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00098 (1015 reqs/sec) | Rendering: 0.00004 (4%) | 401 Unauthorized [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 00:13:10) [GET]
+  Session ID: 2a7dbfeadeb5bf66fec0fae94091ae43
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.16125 (6 reqs/sec) | Rendering: 0.00135 (0%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 32.171.205.239 at 2008-06-18 00:13:34) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.05813 (17 reqs/sec) | Rendering: 0.00113 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:15:59) [GET]
+  Session ID: 3f985ee67435929b52ea0e69d9c8b5da
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x01896da8@./script/../config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00055 (1807 reqs/sec) | Rendering: 0.00004 (7%) | 401 Unauthorized [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:15:59) [GET]
+  Session ID: 3f985ee67435929b52ea0e69d9c8b5da
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06691 (14 reqs/sec) | Rendering: 0.00346 (5%) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-06-18 00:16:00) [GET]
+  Session ID: 3f985ee67435929b52ea0e69d9c8b5da
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.05668 (17 reqs/sec) | Rendering: 0.00112 (1%) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 00:16:48) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.07110 (14 reqs/sec) | Rendering: 0.00120 (1%) | 200 OK [http://75.51.119.212/]

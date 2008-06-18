@@ -1101,3 +1101,47 @@ Rendering  within layouts/default
 Rendering main/index
 Response body was encoded with gzip
 Completed in 0.05905 (16 reqs/sec) | Rendering: 0.00115 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 12:28:08) [GET]
+  Session ID: ac758f8132f86150ef33c8e3f20ba872
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Filter chain halted as [#<Proc:0x0196bbfc@/Users/dusty/Projects/OmniFocus-Web-UI/trunk/config/../vendor/rails/actionpack/lib/action_controller/filters.rb:597>] did not yield.
+Response body was encoded with gzip
+Completed in 0.00111 (903 reqs/sec) | Rendering: 0.00008 (6%) | 401 Unauthorized [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 12:28:30) [GET]
+  Session ID: ac758f8132f86150ef33c8e3f20ba872
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.12517 (7 reqs/sec) | Rendering: 0.00118 (0%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 12:30:58) [GET]
+  Session ID: ac758f8132f86150ef33c8e3f20ba872
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06428 (15 reqs/sec) | Rendering: 0.00206 (3%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 12:31:59) [GET]
+  Session ID: ac758f8132f86150ef33c8e3f20ba872
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06683 (14 reqs/sec) | Rendering: 0.00201 (3%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 12:32:54) [GET]
+  Session ID: ac758f8132f86150ef33c8e3f20ba872
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06365 (15 reqs/sec) | Rendering: 0.00207 (3%) | 200 OK [http://75.51.119.212/]

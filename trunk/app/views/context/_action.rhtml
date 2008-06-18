@@ -1,0 +1,27 @@
+<li id="li-<%= a[:id] %>">
+	
+  <%= image_tag("Checkbox-deselected.png", 
+    :id => 'img-' + a[:id], 
+    :class => "checkbox", 
+    :alt => "Checkbox-deselected",
+    :onclick => "this.src='/images/loading.gif';" + remote_function(:id => "img-" + a[:id], :url => {:action => "toggle_checkbox", :controller => :context, :id => a[:id]}) 
+    ) %>
+
+	<div class="action_metadata">
+		<% if a[:note] != "" %>
+		
+      <%= image_tag("Note-deselected.png", 
+        :id => 'note-icon-' + a[:id], 
+        :class => "attachment_button", 
+        :onclick => "toggleNote('" + a[:id] + "')"
+        ) %>
+		
+		<% end %>		
+
+		<div class="name" id="<%= a[:id] %>"><%= h(a[:name]) %></div>
+		<div class="project"><%= h(a[:project_name]) %></div>
+	</div>
+	<div class="note" style="display:none;" id="note-<%= a[:id] %>">
+		<%= auto_link(simple_format(h(a[:note])), :all, :target => '_blank') %>
+	</div>
+</li>

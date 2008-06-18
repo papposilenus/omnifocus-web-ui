@@ -1,0 +1,5 @@
+<ul title="Inbox" id="Inbox">
+<% @actions.each {|a| %>
+	<%= render(:partial => 'context/action', :locals => { :a => a }) %>
+<% } %>
+</ul>

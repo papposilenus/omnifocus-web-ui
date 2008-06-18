@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/xml; charset=utf8" /> 
 <%= javascript_include_tag "/iui/iui" %>
 <%= javascript_include_tag "application" %>
+<%= javascript_include_tag "input-placeholder-text" %>
 <%= javascript_include_tag "prototype" %>
 <%= javascript_include_tag "effects" %>
 <%= stylesheet_link_tag "/iui/iui" %>
@@ -28,11 +29,10 @@
           <a class="button leftButton" type="cancel">Cancel</a>
           <a class="button blueButton" type="submit">Submit</a>
           
-          <input type="text" name="inbox_item_name"/>
-<!--
-            <label>Note</label>
-          <input type="text" name="inbox_item_note"/>
--->
+          <input class="auto-clear" id="text-clear" title="Task Name" type="text" name="inbox_item_name"/>
+          
+		  <!-- <label>Task Note</label> -->
+          <!-- <input type="text" name="inbox_item_note"/> -->
       </fieldset>
   </form>
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title><%= @page_title || "OmniFocus" %></title>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta http-equiv="Content-Type" content="text/xml; charset=utf8" /> 
+<%= javascript_include_tag "/iui/iui" %>
+<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "prototype" %>
+<%= javascript_include_tag "effects" %>
+<%= stylesheet_link_tag "/iui/iui" %>
+<%= stylesheet_link_tag "application" %>
+</head>
+
+<body>
+  <div class="toolbar">
+    <h1 id="pageTitle"></h1>
+    <a id="backButton" class="button" href="#"></a>
+    <a class="button" href="#newTaskForm">Add</a>
+  </div>
+
+	<%= @content_for_layout %>
+
+
+  <form id="newTaskForm" class="dialog" action="/inbox/add" method="POST">
+      <fieldset>
+          <h1>New Task</h1>
+          <a class="button leftButton" type="cancel">Cancel</a>
+          <a class="button blueButton" type="submit">Submit</a>
+          
+          <input type="text" name="inbox_item_name"/>
+<!--
+            <label>Note</label>
+          <input type="text" name="inbox_item_note"/>
+-->
+      </fieldset>
+  </form>
+
+</body>
+</html>

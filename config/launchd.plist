@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.omnigroup.omnifocus.web_interface</string>
+	
+        <!-- configured when installed by OmniFocus.app
+	<key>Program</key>
+	<string>/path/to/app</string>
+        -->
+        
+	<key>ProgramArguments</key>
+	<array>
+		<string>OmniFocus Web Interface</string> <!-- program name... -->
+		
+		<!-- Start as webrick, even if the user happens to have mongrel or lighttp installed on their own.  Must occur before '-e production' to take effect. -->
+		<string>webrick</string>
+
+		<string>-e</string>
+		<string>production</string>
+	</array>
+	
+	<!-- Launch right away instead of on-demand, at least for now. -->
+	<key>RunAtLoad</key>
+	<true/>
+	<key>OnDemand</key>
+	<false/>
+	
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/bin:/bin</string>
+	</dict>
+	
+	<!-- Directory to chroot to.  man launchd.plist says that we should not chroot ourselves.  I'm not sure how we are expected to get our dylibs and such loaded.  More research necessary.
+	<key>RootDirectory</key>
+	<string>some path</string>
+	-->
+	
+        <!-- configured when installed by OmniFocus.app
+	<key>WorkingDirectory</key>
+	<string>/path/to/rails/app</string>
+        -->
+	
+	<!-- These paths can be absolute or relative to the WorkingDirectory -->
+	<key>StandardOutPath</key>
+	<string>log/production-stdout</string>
+	<key>StandardErrorPath</key>
+	<string>log/production-stderr</string>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+<ul id="context-<%= params[:id] %>" title="<%= @name %>">
+	<% @actions.each {|a| %>
+		<%= render(:partial => 'action', :locals => { :a => a }) %>
+	<% } %>
+</ul>

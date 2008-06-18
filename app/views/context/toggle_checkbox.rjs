@@ -1,0 +1,21 @@
+if @checked
+  page[@id].addClassName('checked')
+  page.replace "img-" + @id,
+      image_tag("Checkbox-selected.png", 
+      :id => 'img-' + @id, 
+      :class => "checkbox", 
+      :alt => "Checkbox-selected",
+      :onclick => "this.src='/images/loading.gif';" + remote_function(:id => "img-" + @id, :url => {:action => "toggle_checkbox", :controller => :context, :id => @id}) 
+    )
+
+else
+  page[@id].removeClassName('checked')
+  page.replace "img-" + @id, 
+    image_tag("Checkbox-deselected.png", 
+      :id => 'img-' + @id, 
+      :class => "checkbox", 
+      :alt => "Checkbox-deselected",
+      :onclick => "this.src='/images/loading.gif';" + remote_function(:id => "img-" + @id, :url => {:action => "toggle_checkbox", :controller => :context, :id => @id}) 
+    )
+
+end

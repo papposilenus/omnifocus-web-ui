@@ -1,0 +1,73 @@
+/* Page Styles */
+
+.note a {
+	text-decoration: underline;
+	color: black;
+}
+
+.count {
+    color: white;
+    background-color: #9db4d2;
+    float: right;
+
+    padding: 2px 8px;
+    border: 1px solid rgb(162, 152, 197);
+    -webkit-border-radius: 10px;
+	vertical-align: middle;
+	font-size: 12pt;
+	width: 20px;
+	text-align: center;
+
+}
+
+/* Action List */
+.checkbox {
+    float:left;
+    padding: 0;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.action_metadata {
+    margin-left: 35px;
+}
+
+.name {
+    margin-right: 42px;
+
+}
+
+.project {
+    color: rgb(128, 128, 128);
+    font-size: 11px;
+}
+
+.note {
+    -webkit-border-radius: 7px;
+    background-color: rgb(229, 229, 229);
+    font-size: 10pt;
+    color: black;
+    padding: 5px;
+    margin: 5px 10px 0 0;
+}
+
+.attachment_button {
+    float:right;
+    height: 24px;
+    width: 24px;
+    margin: 8px 10px 0 0;
+}
+
+.subcontext {
+    font-weight: normal;
+	color: #333;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+a[selected] span.subcontext, a:active span.subcontext {
+	color: white;
+}

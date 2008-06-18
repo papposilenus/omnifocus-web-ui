@@ -1,5 +1,0 @@
-v0.1.2
-======
-Fixes:
-16730	RuntimeError in InboxController#add
-16731	RuntimeError in InboxController#add (attempt 2)

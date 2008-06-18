@@ -557,3 +557,547 @@ Rendering  within layouts/default
 Rendering main/index
 Response body was encoded with gzip
 Completed in 0.07110 (14 reqs/sec) | Rendering: 0.00120 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing MainController#index (for 32.168.162.197 at 2008-06-18 00:23:24) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.05903 (16 reqs/sec) | Rendering: 0.00118 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing ContextController#view (for 192.168.0.1 at 2008-06-18 00:23:43) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"view", "id"=>"oyjDlu2xYVe", "controller"=>"context"}
+Rendered context/_view (0.00075)
+Response body was encoded with gzip
+Completed in 0.05962 (16 reqs/sec) | Rendering: 0.00117 (1%) | 200 OK [http://75.51.119.212/context/view/oyjDlu2xYVe]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:06:15) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"test"}
+Rendered context/_action (0.00230)
+Rendered context/_action (0.00037)
+Rendered inbox/_inbox (0.00361)
+Response body was encoded with gzip
+Completed in 0.10647 (9 reqs/sec) | Rendering: 0.00398 (3%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:07:33) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Scroll menus to select context and project"}
+Rendered context/_action (0.00113)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00039)
+Rendered inbox/_inbox (0.00247)
+Response body was encoded with gzip
+Completed in 0.06410 (15 reqs/sec) | Rendering: 0.00281 (4%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#index (for 192.168.0.1 at 2008-06-18 01:07:52) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00110)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered inbox/_inbox (0.00236)
+Response body was encoded with gzip
+Completed in 0.01856 (53 reqs/sec) | Rendering: 0.00268 (14%) | 200 OK [http://75.51.119.212/inbox]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:08:50) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Clear new task input box on submit"}
+Rendered context/_action (0.00117)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00301)
+Response body was encoded with gzip
+Completed in 0.10629 (9 reqs/sec) | Rendering: 0.00334 (3%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:10:28) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Allow for project and context creation through a selection in the scroll menu"}
+Rendered context/_action (0.00117)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00352)
+Response body was encoded with gzip
+Completed in 0.06857 (14 reqs/sec) | Rendering: 0.00390 (5%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:11:34) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Click on tasks to see more information"}
+Rendered context/_action (0.00117)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00401)
+Response body was encoded with gzip
+Completed in 0.07370 (13 reqs/sec) | Rendering: 0.00437 (5%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:12:29) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Allow for editing of information on task windows"}
+Rendered context/_action (0.00109)
+Rendered context/_action (0.00045)
+Rendered context/_action (0.00050)
+Rendered context/_action (0.00045)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00040)
+Rendered inbox/_inbox (0.00478)
+Response body was encoded with gzip
+Completed in 0.07676 (13 reqs/sec) | Rendering: 0.00513 (6%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:13:31) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Get rid of javascript error created when adding tasks"}
+Rendered context/_action (0.00125)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00512)
+Response body was encoded with gzip
+Completed in 0.07749 (12 reqs/sec) | Rendering: 0.00547 (7%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#index (for 192.168.0.1 at 2008-06-18 01:13:43) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00110)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00488)
+Response body was encoded with gzip
+Completed in 0.03780 (26 reqs/sec) | Rendering: 0.00521 (13%) | 200 OK [http://75.51.119.212/inbox]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:13:59) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06278 (15 reqs/sec) | Rendering: 0.00349 (5%) | 200 OK [http://75.51.119.212/]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:15:29) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"to clear add form and refresh counts on pages reload main page"}
+Rendered context/_action (0.00121)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered inbox/_inbox (0.00570)
+Response body was encoded with gzip
+Completed in 0.08230 (12 reqs/sec) | Rendering: 0.00610 (7%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:16:39) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Create configuration menu to change settings of web-ui"}
+Rendered context/_action (0.00113)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00044)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00043)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered inbox/_inbox (0.00623)
+Response body was encoded with gzip
+Completed in 0.09006 (11 reqs/sec) | Rendering: 0.00657 (7%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:17:39) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Change color of interface on settings page"}
+Rendered context/_action (0.00117)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00044)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00665)
+Response body was encoded with gzip
+Completed in 0.08649 (11 reqs/sec) | Rendering: 0.00699 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:18:35) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Allow for listing of projects instead of contexts on settings page"}
+Rendered context/_action (0.05348)
+Rendered context/_action (0.00046)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.05951)
+Response body was encoded with gzip
+Completed in 0.14667 (6 reqs/sec) | Rendering: 0.05989 (40%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:19:59) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Allow for listing of only projects or contexts with tasks available on settings page"}
+Rendered context/_action (0.00119)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00047)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00747)
+Response body was encoded with gzip
+Completed in 0.09806 (10 reqs/sec) | Rendering: 0.00788 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:20:35) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.05949 (16 reqs/sec) | Rendering: 0.00129 (2%) | 200 OK [http://75.51.119.212/]
+
+
+Processing InboxController#index (for 192.168.0.1 at 2008-06-18 01:20:41) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00109)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00038)
+Rendered inbox/_inbox (0.00730)
+Response body was encoded with gzip
+Completed in 0.11164 (8 reqs/sec) | Rendering: 0.00764 (6%) | 200 OK [http://75.51.119.212/inbox]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:22:44) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"allow user to change the number of tasks shown per context, ex first 3 tasks of 10 available"}
+Rendered context/_action (0.00125)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00041)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00048)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00837)
+Response body was encoded with gzip
+Completed in 0.10113 (9 reqs/sec) | Rendering: 0.00877 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:25:34) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Create installer package that installs required programs and creates an easy to turn on/off web-ui possible addis pref pane or apple script on toolbar"}
+Rendered context/_action (0.00116)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00045)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00856)
+Response body was encoded with gzip
+Completed in 0.11008 (9 reqs/sec) | Rendering: 0.00891 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:27:03) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Add notes and due/start dates to tasks"}
+Rendered context/_action (0.00110)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00043)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.00879)
+Response body was encoded with gzip
+Completed in 0.11002 (9 reqs/sec) | Rendering: 0.00912 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:28:30) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06629 (15 reqs/sec) | Rendering: 0.00126 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing InboxController#index (for 192.168.0.1 at 2008-06-18 01:28:36) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00115)
+Rendered context/_action (0.00041)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00047)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00045)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00036)
+Rendered inbox/_inbox (0.00938)
+Response body was encoded with gzip
+Completed in 0.07106 (14 reqs/sec) | Rendering: 0.00972 (13%) | 200 OK [http://75.51.119.212/inbox]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:29:35) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"allow to delegate tasks from web"}
+Rendered context/_action (0.00113)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00042)
+Rendered context/_action (0.00038)
+Rendered inbox/_inbox (0.00989)
+Response body was encoded with gzip
+Completed in 0.11377 (8 reqs/sec) | Rendering: 0.01024 (9%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:30:34) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"Clean up button"}
+Rendered context/_action (0.00122)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00048)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00038)
+Rendered inbox/_inbox (0.01042)
+Response body was encoded with gzip
+Completed in 0.17925 (5 reqs/sec) | Rendering: 0.01104 (6%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:30:45) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.10060 (9 reqs/sec) | Rendering: 0.00579 (5%) | 200 OK [http://75.51.119.212/]
+
+
+Processing ContextController#view (for 192.168.0.1 at 2008-06-18 01:31:15) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"view", "id"=>"k1dtAeNg--j", "controller"=>"context"}
+Rendered context/_action (0.00107)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00034)
+Rendered context/_view (0.00385)
+Response body was encoded with gzip
+Completed in 0.03384 (29 reqs/sec) | Rendering: 0.00420 (12%) | 200 OK [http://75.51.119.212/context/view/k1dtAeNg--j]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:32:42) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"show tasks listed in child contexts in parents count and list"}
+Rendered context/_action (0.00126)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00044)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00037)
+Rendered context/_action (0.00042)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00037)
+Rendered inbox/_inbox (0.01087)
+Response body was encoded with gzip
+Completed in 0.12763 (7 reqs/sec) | Rendering: 0.01122 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:33:28) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.06035 (16 reqs/sec) | Rendering: 0.00114 (1%) | 200 OK [http://75.51.119.212/]
+
+
+Processing InboxController#index (for 192.168.0.1 at 2008-06-18 01:33:34) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"inbox"}
+Rendered context/_action (0.00109)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00046)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00034)
+Rendered context/_action (0.00052)
+Rendered context/_action (0.00039)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.01052)
+Response body was encoded with gzip
+Completed in 0.08359 (11 reqs/sec) | Rendering: 0.01090 (13%) | 200 OK [http://75.51.119.212/inbox]
+
+
+Processing InboxController#add (for 192.168.0.1 at 2008-06-18 01:34:28) [POST]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"add", "controller"=>"inbox", "inbox_item_name"=>"show status of task and allow hiding of tasks by status"}
+Rendered context/_action (0.00114)
+Rendered context/_action (0.00038)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00041)
+Rendered context/_action (0.00040)
+Rendered context/_action (0.00036)
+Rendered context/_action (0.00035)
+Rendered context/_action (0.00035)
+Rendered inbox/_inbox (0.01112)
+Response body was encoded with gzip
+Completed in 0.12808 (7 reqs/sec) | Rendering: 0.01148 (8%) | 200 OK [http://75.51.119.212/inbox/add]
+
+
+Processing MainController#index (for 192.168.0.1 at 2008-06-18 01:34:53) [GET]
+  Session ID: 8dbbf6e2e319d21bf41fcca700b72c5e
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering  within layouts/default
+Rendering main/index
+Response body was encoded with gzip
+Completed in 0.05905 (16 reqs/sec) | Rendering: 0.00115 (1%) | 200 OK [http://75.51.119.212/]

@@ -5,15 +5,17 @@
   
 <% @contexts.each {|c| %>
 	<li>
-    <a href="/context/view/<%= c.ctx_id %>">
-      <% if c.is_subcontext %>
-        <span class="subcontext"><%= c.name %></span>
-      <% else %>
-        <%= c.name %>
-      <% end %>
-      <% if c.task_count > 0 %>
-        <span class="count"><%= c.task_count %></span></a>
-      <% end %>
+		<a href="/context/view/<%= c.ctx_id %>">
+			<% if c.is_subcontext %>
+				<span class="subcontext"><%= c.name %></span>
+			<% else %>
+				<%= c.name %>
+			<% end %>
+			
+			<% if c.task_count > 0 %>
+				<span class="count"><%= c.task_count %></span>
+			<% end %>
+		</a>
 	</li>
 <% } %>
 </ul>

@@ -3,8 +3,9 @@
     <a href="/inbox">Inbox <span class="count"><%= @inbox_count %></span></a>
   </li>
   
-<% @contexts.each {|c| %>
-	<% if c.task_count > 0 %>
+<% @contexts.each {|c|
+	#adding the ability to turn on/off the showing of empty contexts on the contexts page
+	if c.task_count > 0 %>
 	<li>
 		<a href="/context/view/<%= c.ctx_id %>">
 			<% if c.is_subcontext %>

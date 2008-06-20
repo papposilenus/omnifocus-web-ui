@@ -7,17 +7,28 @@ class InboxController < ApplicationController
   end
   
   def add    
-    text = params[:inbox_item_name].nil? ? nil : params[:inbox_item_name].strip
+    taskname = params[:inbox_item_name].nil? ? nil : params[:inbox_item_name].strip
+    note =  params[:inbox_note].nil? ? nil : params[:inbox_note].strip
 
-    if !text.nil? and text != ""
+    if !taskname.nil? and taskname != "" and !note.nil? and note != "" 
       new_task = doc.make(
         :new => :inbox_task,
         :at => doc.inbox_tasks.start,
         :with_properties => {
-          :name => text
+          :name => taskname
+          :note => note
+        })
+      a = {:name => new_task.name.get, :id => new_task.id_.get, :note => note }
+    elsif !taskname.nil? and taskname != ""
+      new_task = doc.make(
+        :new => :inbox_task,
+        :at => doc.inbox_tasks.start,
+        :with_properties => {
+          :name => taskname
         })
       a = {:name => new_task.name.get, :id => new_task.id_.get, :note => "" }
-
+    end
+    
       @actions = collect_inbox_tasks
       
       render(:partial => "inbox")

@@ -11,9 +11,10 @@ function toggleNote(id) {
     Effect.toggle("note-" + id, 'appear', {duration: 0.3});
 }
 
-function clearFormValues(form) {
-   for ( i=0; i < form.elements.length; i++) {
-       form.elements[i].value = "";
-   }
-
+function clearForms()
+{
+  var i;
+  for (i = 0; (i < document.forms.length); i++) {
+    document.forms[i].reset();
+  }
 }
